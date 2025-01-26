@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Ensure the model and app are copied
 COPY src/app.py /app/app.py
-COPY models/best_model.joblib /app/best_model.joblib
+# COPY models/best_model.joblib /app/best_model.joblib
 
 # Expose port
 EXPOSE 5000
